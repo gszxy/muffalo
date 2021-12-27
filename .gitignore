@@ -1,0 +1,29 @@
+## python ignores
+
+/venv
+
+## js ignores
+
+# dependencies
+dashboard/node_modules
+dashboard/npm-debug.log*
+dashboard/yarn-error.log
+dashboard/yarn.lock
+dashboard/package-lock.json
+
+# production
+dashboard/dist
+
+# misc
+.DS_Store
+
+# umi
+dashboard/src/.umi
+dashboard/src/pages/.umi
+dashboard/src/.umi-production
+dashboard/src/.umi-test
+dashboard/.env.local
+
+## IDEA ignores
+
+.idea
